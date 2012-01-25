@@ -8,7 +8,7 @@ module Rack
 
       DEFAULT_OPTIONS = Abstract::ID::DEFAULT_OPTIONS.merge \
         :namespace    => 'rack:session',
-        :redis_server => 'redis://127.0.0.1:6379/0'
+        :redis_server => 'redis://redistogo:185b559a81a42687a85960f519105496@guppy.redistogo.com:9253'
 
       def initialize(app, options = {})
         super
